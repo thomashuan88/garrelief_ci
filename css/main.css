@@ -1,0 +1,185 @@
+* {
+	font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+.dropdown-menu {
+	opacity:0.75;
+	filter:alpha(opacity=75);
+}
+.containshadow {
+		-webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.2);
+		box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.2);
+		width: 1124px;
+}
+.headbackgrd {
+	height: 171px;
+	background: url(../img/garhead.jpg) no-repeat;
+}
+.navbar .navbar-inner {
+	border-radius: 0px;
+}
+.navbar .nav > li > a {
+	padding: 10px 30px;
+}
+
+.dropdown-menu .divider {
+	margin: 0;
+}
+.slogan {
+	padding-top: 20px;
+	width: 500px;			
+	padding-left: 260px;
+}
+.slogan * {
+	color: white;
+	font-family:"Times New Roman",Times,serif;
+}
+.slogan h1 {
+	font-weight: bold;
+	font-size: 65px;
+}
+.slogan span {
+	position: relative;
+	left: 8px;
+}
+.mainpic {
+	position: relative;
+	width: 1124px;
+	height: 380px;
+	background: url(../img/gr_mission.jpg) no-repeat;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+.container .smallpic {
+	padding: 10px;
+	padding-top: 15px;
+}
+.container .smallpic .thumbnails {
+	margin: 0px;
+	margin-left: -3px;
+}
+.container .smallpic .thumbnail {
+	width: 200px;
+	height: 199px;
+}
+
+.container .smallpic .thumbnails > li {
+	margin-left: 10px;
+}
+.container .smallpic .thumbnails img {
+	width: 200px;
+	cursor: pointer;
+}
+.container .smallpic h3 {
+	font-size: 17px;
+	line-height: 22px;
+	text-align: center;
+	margin: 0;
+	color: #8A8A8A;
+	font-weight: normal;
+}
+.imgout {
+	height:115px;
+	display: block;
+	overflow: hidden;
+}
+.graycolor {
+	background: #eee;
+}
+.mainpicInfo {
+	width: 550px;
+	height: auto;
+	position: absolute;
+	top: 150px;
+	right: 0px;
+}
+.mainpicInfo p {
+	color: white;
+	margin-right: 40px;
+	font-size: 16px;
+	line-height: 30px;
+	font-style: italic;
+	text-align: right;			
+}
+.gradient {
+/* webkit example */
+/* IE10 Consumer Preview */ 
+	background: linear-gradient(to left,  rgba(54,54,54,0.85) 0%,rgba(54,54,54,0.7) 50%,rgba(0,0,0,0) 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+
+    background-image: -webkit-gradient(
+      linear, right top, left top, from(rgba(59, 59, 59, 0.7)),
+      to(rgba(59, 59, 59, 0))
+    );
+
+    /* mozilla example - FF3.6+ */
+    background-image: -moz-linear-gradient(
+      right center,
+      rgba(59, 59, 59, 0.7) 20%, rgba(59, 59, 59, 0) 95%
+    );
+
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(
+      gradientType=1, startColor=0, endColorStr=#3b3b3b
+    );
+
+    /* IE8 uses -ms-filter for whatever reason... */
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(
+      gradientType=1, startColor=0, endColoStr=#3b3b3b
+    );		
+}
+.btn-position {
+	float: right;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+.contentarea {
+	position: relative;
+}
+.contentarea .contentslice {
+	float: left;
+	margin-right: 19px;
+	margin-left: 20px;
+	width: 200px;
+
+}
+.contentarea .contentslice.notfirst {
+	margin-left: 0px;
+}
+
+.contentarea .contentslice .header {
+	color: #F79411;
+	font-weight: bold;
+	line-height: 28px;
+	font-size: 24px;
+	height: 66px;
+	display: table-cell;
+	vertical-align:bottom;
+}
+
+.contentarea .contentslice.contact {
+	position: absolute;
+	top: 0px;
+	float: none;
+	right: 0px;
+}
+.contentarea .contentslice img {
+	width: 200px;
+	height: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contentarea .contentslice.contact .header {
+	color: #114FF7;
+	font-size: 18px;
+}		
+.contentarea .contentslice .body {
+	padding-top: 10px;
+}
+.contentarea .contentslice.contact .body img {
+	width: 60px;
+	height: auto;
+}
