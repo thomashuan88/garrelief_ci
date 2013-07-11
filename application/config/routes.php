@@ -38,7 +38,16 @@
 |
 */
 
-$route['default_controller'] = "site";
+$route['default_controller'] = "mainpage";
+
+$route['aboutus/mission'] = "mainpage/mission";
+$route['aboutus/how_we_work'] = "mainpage/how_we_work";
+$route['aboutus/founder'] = "mainpage/founder";
+
+$route['contact/contactus'] = "mainpage/contactus";
+
+$route['donate/donate'] = "mainpage/donate";
+$route['donate/paypal'] = "mainpage/paypal";
 $route['404_override'] = '';
 
 
