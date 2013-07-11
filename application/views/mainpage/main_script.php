@@ -10,31 +10,31 @@ $(function(){
                 txt: 'We are an international, all volunteer charitable organization.  Because volunteers and sponsors cover administrative expenses, 100% of your donation goes directly to benefit our projects and the Tibetan people.',
                 fontsize: '16px',
                 lineheight: '30px',
-                url: 'aboutus/our_mission.html'
+                url: 'aboutus/mission'
             },
             'elementary_school': {
                 txt: 'You can transform a child\'s life',
                 fontsize: '24px',
                 lineheight: '26px',
-                url: 'projects/elementary_school.html'
+                url: 'projects/elementary_school'
             },
             'clinic': {
                 txt: 'Save a life',
                 fontsize: '36px',
                 lineheight: '38px',
-                url: 'projects/clinic.html'
+                url: 'projects/clinic'
             },
             'elder_care': {
                 txt: 'We are the elderly of the future',
                 fontsize: '24px',
                 lineheight: '26px',
-                url: 'projects/elder_care.html'
+                url: 'projects/elder_care'
             },
             'donate': {
                 txt: 'Please give hope! You can make a different in their future life.',
                 fontsize: '16px',
                 lineheight: '30px',
-                url: 'donate/donate2.html'
+                url: 'donate/donate'
             }
         };
 
