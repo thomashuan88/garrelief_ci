@@ -1,7 +1,7 @@
 <div class="mainpic">
     <div class="mainpicInfo gradient">
         <p>We are an international, all volunteer charitable organization.  Because volunteers and sponsors cover administrative expenses, 100% of your donation goes directly to benefit our projects and the Tibetan people.</p>
-        <a href="aboutus/our_mission.html" class="btn btn-large btn-position btn-warning">Read More</a>
+        <a href="aboutus/mission" class="btn btn-large btn-position btn-warning">Read More</a>
     </div>
 </div>
 <div class="smallpic">

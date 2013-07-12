@@ -69,11 +69,24 @@ class Mainpage extends CI_Controller {
     public function how_we_work()
     {
         $data = array(
-            'title'=>'How We Word',
+            'title'=>'How We Work',
             'menu'=>$this->load->view('mainpage/menu','',true),
             'content'=>$this->load->view('mainpage/how_we_work','',true),
             'script'=>'',
             'style'=>$this->load->view('mainpage/how_we_work_style','',true)
+        );
+        
+        $this->load->view('layout',$data);
+    }    
+
+    public function founder()
+    {
+        $data = array(
+            'title'=>'Our Founder',
+            'menu'=>$this->load->view('mainpage/menu','',true),
+            'content'=>$this->load->view('mainpage/founder','',true),
+            'script'=>'',
+            'style'=>$this->load->view('mainpage/founder_style','',true)
         );
         
         $this->load->view('layout',$data);
