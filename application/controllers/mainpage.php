@@ -66,6 +66,19 @@ class Mainpage extends CI_Controller {
         $this->load->view('layout',$data);
     }
 
+    public function how_we_work()
+    {
+        $data = array(
+            'title'=>'How We Word',
+            'menu'=>$this->load->view('mainpage/menu','',true),
+            'content'=>$this->load->view('mainpage/how_we_work','',true),
+            'script'=>'',
+            'style'=>$this->load->view('mainpage/how_we_work_style','',true)
+        );
+        
+        $this->load->view('layout',$data);
+    }
+
     public function donate()
     {
         $data = array(
