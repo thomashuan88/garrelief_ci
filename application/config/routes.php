@@ -44,6 +44,8 @@ $route['aboutus/mission'] = "mainpage/mission";
 $route['aboutus/how_we_work'] = "mainpage/how_we_work";
 $route['aboutus/founder'] = "mainpage/founder";
 
+$route['projects/elementary_school'] = "mainpage/elementary";
+
 $route['contact/contactus'] = "mainpage/contactus";
 
 $route['donate/donate'] = "mainpage/donate";

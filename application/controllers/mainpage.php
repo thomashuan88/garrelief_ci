@@ -92,6 +92,19 @@ class Mainpage extends CI_Controller {
         $this->load->view('layout',$data);
     }
 
+    public function elementary()
+    {
+        $data = array(
+            'title'=>'Elementary School',
+            'menu'=>$this->load->view('mainpage/menu','',true),
+            'content'=>$this->load->view('mainpage/elementary','',true),
+            'script'=>'',
+            'style'=>$this->load->view('mainpage/elementary_style','',true)
+        );
+        
+        $this->load->view('layout',$data);
+    }
+
     public function donate()
     {
         $data = array(
