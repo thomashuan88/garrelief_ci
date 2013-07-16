@@ -45,6 +45,14 @@ $route['aboutus/how_we_work'] = "mainpage/how_we_work";
 $route['aboutus/founder'] = "mainpage/founder";
 
 $route['projects/elementary_school'] = "mainpage/elementary";
+$route['projects/clinic'] = "mainpage/clinic";
+$route['projects/elder_care'] = "mainpage/elder";
+$route['projects/vision'] = "mainpage/vision";
+
+$route['learnmore/region'] = "mainpage/region";
+$route['learnmore/education'] = "mainpage/education";
+$route['learnmore/elder_care'] = "mainpage/elder2";
+$route['learnmore/health_care'] = "mainpage/health";
 
 $route['contact/contactus'] = "mainpage/contactus";
 

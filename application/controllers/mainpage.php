@@ -104,6 +104,90 @@ class Mainpage extends CI_Controller {
         
         $this->load->view('layout',$data);
     }
+    public function clinic()
+    {
+        $data = array(
+            'title'=>'Bendurya Clinic',
+            'menu'=>$this->load->view('mainpage/menu','',true),
+            'content'=>$this->load->view('mainpage/clinic','',true),
+            'script'=>'',
+            'style'=>$this->load->view('mainpage/clinic_style','',true)
+        );
+        
+        $this->load->view('layout',$data);
+    }
+    public function elder()
+    {
+        $data = array(
+            'title'=>'ACHI ELDER CARE',
+            'menu'=>$this->load->view('mainpage/menu','',true),
+            'content'=>$this->load->view('mainpage/elder','',true),
+            'script'=>'',
+            'style'=>$this->load->view('mainpage/elder_style','',true)
+        );
+        
+        $this->load->view('layout',$data);
+    }
+    public function vision()
+    {
+        $data = array(
+            'title'=>'FUTURE VISION',
+            'menu'=>$this->load->view('mainpage/menu','',true),
+            'content'=>$this->load->view('mainpage/vision','',true),
+            'script'=>'',
+            'style'=>$this->load->view('mainpage/vision_style','',true)
+        );
+        
+        $this->load->view('layout',$data);
+    }
+    public function region()
+    {
+        $data = array(
+            'title'=>'THE REGION AND PEOPLE',
+            'menu'=>$this->load->view('mainpage/menu','',true),
+            'content'=>$this->load->view('mainpage/region','',true),
+            'script'=>'',
+            'style'=>$this->load->view('mainpage/region_style','',true)
+        );
+        
+        $this->load->view('layout',$data);
+    }
+    public function education()
+    {
+        $data = array(
+            'title'=>'EDUCATION',
+            'menu'=>$this->load->view('mainpage/menu','',true),
+            'content'=>$this->load->view('mainpage/education','',true),
+            'script'=>'',
+            'style'=>$this->load->view('mainpage/education_style','',true)
+        );
+        
+        $this->load->view('layout',$data);
+    }
+    public function elder2()
+    {
+        $data = array(
+            'title'=>'ELDER CARE',
+            'menu'=>$this->load->view('mainpage/menu','',true),
+            'content'=>$this->load->view('mainpage/elder2','',true),
+            'script'=>'',
+            'style'=>$this->load->view('mainpage/elder2_style','',true)
+        );
+        
+        $this->load->view('layout',$data);
+    }
+    public function health()
+    {
+        $data = array(
+            'title'=>'HEALTH CARE',
+            'menu'=>$this->load->view('mainpage/menu','',true),
+            'content'=>$this->load->view('mainpage/health','',true),
+            'script'=>'',
+            'style'=>$this->load->view('mainpage/health_style','',true)
+        );
+        
+        $this->load->view('layout',$data);
+    }
 
     public function donate()
     {

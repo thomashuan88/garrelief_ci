@@ -24,24 +24,24 @@
                         <ul class="dropdown-menu">
                             <li><a href="<?php echo base_url(); ?>projects/elementary_school">GAR TAJUK<br />ELEMENTARY SCHOOL</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">BENDURYA CLINIC</a></li>
+                            <li><a href="<?php echo base_url(); ?>projects/clinic">BENDURYA CLINIC</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">ACHI ELDER CARE</a></li>
+                            <li><a href="<?php echo base_url(); ?>projects/elder_care">ACHI ELDER CARE</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">FUTURE VISION</a></li>
+                            <li><a href="<?php echo base_url(); ?>projects/vision">FUTURE VISION</a></li>
                         </ul>                                   
                     </li>
                     <li><a href="<?php echo base_url(); ?>donate/donate">DONATE</a></li>
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">LEARN MORE <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">THE REGION AND PEOPLE</a></li>
+                            <li><a href="<?php echo base_url(); ?>learnmore/region">THE REGION AND PEOPLE</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">EDUCATION</a></li>
+                            <li><a href="<?php echo base_url(); ?>learnmore/education">EDUCATION</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">HEALTH CARE</a></li>
+                            <li><a href="<?php echo base_url(); ?>learnmore/health_care">HEALTH CARE</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">ELDER CARE</a></li>
+                            <li><a href="<?php echo base_url(); ?>learnmore/elder_care">ELDER CARE</a></li>
                         </ul>
                     </li>
                     <li><a href="<?php echo base_url(); ?>contact/contactus">CONTACT US</a></li>
